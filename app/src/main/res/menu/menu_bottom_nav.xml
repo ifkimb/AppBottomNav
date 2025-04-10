@@ -5,25 +5,25 @@
     <item
         android:id="@+id/mNews"
         android:icon="@drawable/baseline_news"
-        android:title="News"
+        android:title="@string/news"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/mGlobal"
         android:icon="@drawable/baseline_global"
-        android:title="Global"
+        android:title="@string/global"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/mForYou"
         android:icon="@drawable/baseline_star"
-        android:title="For You"
+        android:title="@string/for_you"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/mTrending"
         android:icon="@drawable/baseline_trending"
-        android:title="Trending"
+        android:title="@string/trending"
         app:showAsAction="ifRoom" />
 
 
