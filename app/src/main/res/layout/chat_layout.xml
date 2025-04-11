@@ -34,7 +34,7 @@
                 android:id="@+id/AppBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Pergunte à Meta AI ou pesquise"
+                android:hint="@string/pergunte_meta_ai_ou_pesquise"
                 android:layout_marginLeft="15sp"
                 android:layout_marginRight="15sp"
                 android:drawableStart="@drawable/baseline_busca" />
