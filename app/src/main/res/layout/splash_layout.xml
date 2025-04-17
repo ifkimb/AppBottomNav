@@ -16,11 +16,11 @@
         android:src="@drawable/logo_whats" />
 
     <ImageView
+        android:id="@+id/idMeta"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal|bottom"
-        android:src="@drawable/meta_logo"
-        android:id="@+id/idMeta"/>
+        android:src="@drawable/meta_icon" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
