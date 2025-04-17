@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">MyApp</string>
+    <string name="app_name">WhatsApp</string>
     <string name="news">News</string>
     <string name="global">Global</string>
     <string name="for_you">For You</string>
     <string name="trending">Trending</string>
     <string name="pergunte_meta_ai_ou_pesquise">Pergunte à Meta AI ou pesquise</string>
+    <string name="from">from</string>
 </resources>

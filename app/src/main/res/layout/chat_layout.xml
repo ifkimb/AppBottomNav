@@ -28,17 +28,21 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/idAppBar">
+            android:layout_below="@+id/idAppBar"
+            android:layout_margin="10dp"
+            app:boxCornerRadiusBottomEnd="25sp"
+            app:boxCornerRadiusBottomStart="25sp"
+            app:boxCornerRadiusTopEnd="25sp"
+            app:boxCornerRadiusTopStart="25sp">
+
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/AppBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_busca"
                 android:hint="@string/pergunte_meta_ai_ou_pesquise"
-                android:layout_marginLeft="15sp"
-                android:layout_marginRight="15sp"
-                android:padding="20sp"
-                android:drawableStart="@drawable/baseline_busca" />
+                android:padding="20sp" />
 
 
         </com.google.android.material.textfield.TextInputLayout>
